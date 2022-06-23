@@ -1,15 +1,27 @@
 #!/bin/bash
-repo="https://github.com/cryingcavecat/flash-mcu-update"
-repo_name="mcu-flash-update/"
 
+
+repo="https://github.com/cryingcavecat/flash-mcu-update"
+repo_name="flash-mcu-update/"
+
+echo "/////////////////////////////////////////////////"
+echo "INSTALLING ESPTOOL"
+echo "/////////////////////////////////////////////////"
 pip3 install esptool
 
 cd /home/eden/
 
+echo "/////////////////////////////////////////////////"
+echo "CLONING REPO"
+echo "/////////////////////////////////////////////////"
 git clone $repo
 
 cd $repo_name
 
+
+echo "/////////////////////////////////////////////////"
+echo "RUNNING UPLOAD SCRIPT"
+echo "/////////////////////////////////////////////////"
 chmod +x Upload.sh
 
 bash Upload.sh
