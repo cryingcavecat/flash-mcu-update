@@ -2,7 +2,7 @@
 
 #FileName="noa-eden-station2_1_1_1_9_20220623173733.bin"
 
-FileName="Test"
+FileName="firmware.bin"
 
 paths=$(find /sys/bus/usb/devices/usb*/ -name dev)
 

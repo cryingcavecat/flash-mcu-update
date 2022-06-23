@@ -16,7 +16,7 @@ python3 -m esptool
 
 Script Link
 ////////////////////////////////////////////////////////////////////////
-curl -sL https://is.gd/9NaJtt | bash
+
 
 curl -sL t.ly/gEPD | bash
 
