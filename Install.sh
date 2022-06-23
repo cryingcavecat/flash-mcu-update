@@ -1,6 +1,6 @@
 #!/bin/bash
-repo="https://github.com/cryingcavecat/mcu-flash-fix.git"
-repo_name="mcu-flash-fix/"
+repo="https://github.com/cryingcavecat/flash-mcu-update"
+repo_name="mcu-flash-update/"
 
 pip3 install esptool
 

