@@ -47,5 +47,5 @@ elif [[ $count -eq 1 ]]; then
 fi
 
 echo "Using File " "$FileName"
-python3 -m esptool --port "$port" --baud 460800 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 40m --flash_size detect 0x10000 "$FileName"
+python3 -m esptool --port "$port" --baud 460800 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 40m  0x10000 "$FileName"
 
